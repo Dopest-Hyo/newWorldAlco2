@@ -40,5 +40,12 @@
       "alco_img": "https://alcoholwrold.s3-ap-northeast-2.amazonaws.com/alcol.jpeg",
       "id": 8
     }
+  ],
+  "member": [
+    {
+      "username": "1232123",
+      "comment": "123",
+      "id": 2
+    }
   ]
 }
