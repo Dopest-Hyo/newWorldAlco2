@@ -10,7 +10,7 @@ const initialState = {
 
 //list get청크
 export const getAlcos = createAsyncThunk("alcoholList/getAlcos", async () => {
-  const responesData = await axios.get("http://localhost:3001/alcohol");
+  const responesData = await axios.get(process.env.REACT_APP_DBURL + "alcohol");
   return responesData.data;
 });
 //item del청크
@@ -18,7 +18,7 @@ export const delAlco = createAsyncThunk(
   "alcoholList/delAlco",
   async (itemId) => {
     const responesData = await axios.delete(
-      `http://localhost:3001/alcohol/${itemId}`
+      process.env.REACT_APP_DBURL + `alcohol/${itemId}`
     );
     return responesData.data;
   }
@@ -29,7 +29,7 @@ export const updateAlco = createAsyncThunk(
   "alcoholList/delAlco",
   async ({ itemId, data }) => {
     const responesData = await axios.put(
-      `http://localhost:3001/alcohol/${itemId}`,
+      process.env.REACT_APP_DBURL + `alcohol/${itemId}`,
       data
     );
     return { itemId, data };

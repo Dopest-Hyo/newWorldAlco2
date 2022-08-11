@@ -224,6 +224,9 @@ const Content = styled.div`
     border-radius: 5px;
     color: black;
   }
+  select > * {
+    color: black;
+  }
   textarea {
     border: none;
     width: 90%;

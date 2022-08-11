@@ -62,7 +62,7 @@ const Form = () => {
         let imgUrl = data.location;
         const newState = { ...state, alco_img: imgUrl };
         //json-server 등록
-        await axios.post("http://localhost:3001/alcohol", newState);
+        await axios.post(process.env.REACT_APP_DBURL + "alcohol", newState);
         alert("등록이 완료되었습니다!");
         navigate("/list");
         //초기화
@@ -232,6 +232,9 @@ const Content = styled.div`
     border: none;
     padding: 5px;
     border-radius: 5px;
+    color: black;
+  }
+  select > * {
     color: black;
   }
   textarea {
