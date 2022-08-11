@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@font-face {
+  font-family: 'GangwonEdu_OTFBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+* {
+  font-family: 'GangwonEdu_OTFBoldA';
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+html {
+  background-image: url(./image/mainImg/background1.jpeg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body {
+  margin: 0;
+  /* background-color: black; */
+  /* background: url('./image/mainImg/background.jpeg') no-repeat ;  */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

@@ -1,0 +1,44 @@
+{
+  "alcohol": [
+    {
+      "alco_name": "서머스비",
+      "alco_type": "",
+      "alco_nation": "덴마크",
+      "alco_exp": "달콤 새콤 사과 맛이 나는 맥주",
+      "alco_img": "https://alcoholwrold.s3-ap-northeast-2.amazonaws.com/somersby.jpeg",
+      "id": 3
+    },
+    {
+      "alco_name": "에버클리어",
+      "alco_type": "",
+      "alco_nation": "미국",
+      "alco_exp": "혀가 타들어가는 맛! 미국 젋은이들에게 인기",
+      "alco_img": "https://alcoholwrold.s3-ap-northeast-2.amazonaws.com/everclear.jpeg",
+      "id": 4
+    },
+    {
+      "alco_name": "매화수",
+      "alco_type": "",
+      "alco_nation": "한국",
+      "alco_exp": "꽃향기와 단맛으로 인기!하지만 숙취가 심하다구!",
+      "alco_img": "https://alcoholwrold.s3-ap-northeast-2.amazonaws.com/매화수.png",
+      "id": 6
+    },
+    {
+      "alco_name": "test",
+      "alco_type": "",
+      "alco_nation": "미국",
+      "alco_exp": "test",
+      "alco_img": "https://alcoholwrold.s3-ap-northeast-2.amazonaws.com/images.jpeg",
+      "id": 7
+    },
+    {
+      "alco_name": "test2",
+      "alco_type": "",
+      "alco_nation": "덴마크",
+      "alco_exp": "test",
+      "alco_img": "https://alcoholwrold.s3-ap-northeast-2.amazonaws.com/alcol.jpeg",
+      "id": 8
+    }
+  ]
+}
